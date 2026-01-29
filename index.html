@@ -3,11 +3,201 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DeepChand's Resume</title>
+    <title>Deep Chand - Resume</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 40px;
+            box-shadow: 0 0 20px rgba(0,0,0,0.1);
+        }
+        
+        header {
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 3px solid #2c3e50;
+            margin-bottom: 30px;
+        }
+        
+        h1 {
+            color: #2c3e50;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            color: #555;
+            font-size: 0.95em;
+            margin-top: 10px;
+        }
+        
+        .section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #2c3e50;
+            font-size: 1.5em;
+            margin-bottom: 15px;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #3498db;
+        }
+        
+        .education-item {
+            margin-bottom: 20px;
+        }
+        
+        .degree {
+            font-weight: bold;
+            color: #2c3e50;
+            font-size: 1.1em;
+        }
+        
+        .school {
+            color: #555;
+            font-style: italic;
+            margin: 5px 0;
+        }
+        
+        .details {
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .percentage {
+            color: #27ae60;
+            font-weight: bold;
+        }
+        
+        ul {
+            list-style-position: inside;
+            margin-left: 20px;
+        }
+        
+        li {
+            margin-bottom: 8px;
+            color: #555;
+        }
+        
+        .grid-list {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 10px;
+            margin-left: 0;
+        }
+        
+        .grid-list li {
+            list-style-type: none;
+            padding-left: 20px;
+            position: relative;
+        }
+        
+        .grid-list li:before {
+            content: "▹";
+            position: absolute;
+            left: 0;
+            color: #3498db;
+            font-weight: bold;
+        }
+    </style>
 </head>
 <body>
-    <center>
-        <h1>Deepchand's Resume</h1>
-    </center>
+    <div class="container">
+        <header>
+            <h1>DEEP CHAND</h1>
+            <div class="contact-info">
+                <p>UID: 24BAI70818</p>
+                <p>Yamunanagar, Haryana, India</p>
+            </div>
+        </header>
+
+        <div class="section">
+            <h2>Education</h2>
+            
+            <div class="education-item">
+                <div class="degree">Bachelor's Degree (Current)</div>
+                <div class="school">2nd Year, 4th Semester</div>
+                <div class="details">UID: 24BAI70818</div>
+            </div>
+
+            <div class="education-item">
+                <div class="degree">Senior Secondary (Class 12th)</div>
+                <div class="school">SD Senior Secondary School, Yamunanagar, Haryana</div>
+                <div class="details">
+                    Percentage: <span class="percentage">75%</span>
+                </div>
+            </div>
+
+            <div class="education-item">
+                <div class="degree">Secondary (Class 10th)</div>
+                <div class="school">SD Senior Secondary School, Yamunanagar, Haryana</div>
+                <div class="details">
+                    Percentage: <span class="percentage">87%</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Technical Skills</h2>
+            <ul class="grid-list">
+                <li>Programming (Python, Java, C++)</li>
+                <li>Web Development (HTML, CSS, JavaScript)</li>
+                <li>Data Structures & Algorithms</li>
+                <li>Database Management</li>
+                <li>Problem Solving</li>
+                <li>Team Collaboration</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Interests</h2>
+            <ul class="grid-list">
+                <li>Artificial Intelligence & Machine Learning</li>
+                <li>Software Development</li>
+                <li>Competitive Programming</li>
+                <li>Technology & Innovation</li>
+                <li>Open Source Contribution</li>
+                <li>Reading Tech Blogs & Articles</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Hobbies</h2>
+            <ul class="grid-list">
+                <li>Coding & Building Projects</li>
+                <li>Playing Cricket</li>
+                <li>Listening to Music</li>
+                <li>Watching Movies & Web Series</li>
+                <li>Gaming</li>
+                <li>Exploring New Technologies</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <h2>Personal Attributes</h2>
+            <ul>
+                <li>Quick learner with strong analytical skills</li>
+                <li>Excellent communication and interpersonal abilities</li>
+                <li>Self-motivated and goal-oriented</li>
+                <li>Adaptable to new environments and challenges</li>
+                <li>Strong work ethic and dedication</li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
